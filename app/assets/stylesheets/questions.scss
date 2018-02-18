@@ -1,3 +1,42 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.coaching {
+  margin-top: 50px;
+  padding: 30px;
+  background: #f9f9f9;
+}
+
+.ask {
+  display: flex;
+  justify-content: space-around;
+}
+
+.answers {
+  margin-top: 30px;
+}
+
+.message{
+  background: #F4F4F4;
+  display: flex;
+  border-radius: 5px;
+
+}
+
+.coach {
+  background: blue;
+}
+
+.tab {
+  width: 10px;
+  background: #007bff;
+}
+
+.response {
+  padding: 10px;
+}
+
+.spacer {
+  height: 20px;
+  background: #f9f9f9;
+}

@@ -1,8 +1,31 @@
-<h1>Questions#answer</h1>
-<p>You:</p>
-<strong><%= @question.capitalize %></strong>
-<hr>
-<p>Coach:</p>
-<strong><%= @answer.capitalize %></strong>
-<hr>
-<%= link_to "Ask another question", ask_path %>
+<div class="container">
+  <div class="coaching">
+    <h1 class = "text-center">Stupid Coaching in Rails</h1>
+    <div class="answers"></div>
+      <div class="offset-md-4 col-md-4">
+      <div class="message">
+        <div class="tab">
+
+        </div>
+        <div class="response">
+          <p>You:</p>
+          <strong><%= @question.capitalize %></strong>
+        </div>
+      </div>
+      <div class="spacer"></div>
+
+      <div class="message">
+        <div class="tab">
+        </div>
+        <div class="response">
+          <p>Coach:</p>
+          <strong><%= @answer.capitalize %></strong>
+        </div>
+      </div>
+          <div class="spacer"></div>
+
+      <%= link_to "Ask another question", ask_path, class: "btn btn-primary" %>
+    </div>
+    </div>
+  </div>
+</div>
